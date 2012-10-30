@@ -9,3 +9,8 @@ dep "libncurses5-dev", :template => "managed"  do
   installs "libncurses5-dev"
   provides []
 end
+
+dep "ctags", :template => "managed" do
+  installs "exuberant-ctags"
+  provides []
+end
