@@ -47,3 +47,7 @@ end
 dep 'pygments.pip' do
   provides 'pygmentize'
 end
+
+dep 'jedi.pip' do
+  provides []
+end
