@@ -12,5 +12,7 @@ end
 dep 'dotfiles configured' do
   requires 'dotfiles installed'
   met? { File.exists? File.expand_path('~/.gitconfig') }
+  met? { File.exists? File.expand_path('~/.vimrc') }
+  met? { File.exists? File.expand_path('~/.vim') }
   meet { `cd ~; sh .dotfiles/bootstrap` }
 end
