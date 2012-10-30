@@ -1,5 +1,5 @@
 dep "tmux", :template => 'src' do
-  requires "libevent-dev"
+  requires "libevent-dev", "libncurses5-dev"
   source "http://downloads.sourceforge.net/tmux/tmux-1.3.tar.gz"
   provides "tmux"
   install do
