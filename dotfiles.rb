@@ -1,4 +1,4 @@
-dep 'dotfiles' do
+dep 'dotfiles installed' do
   def path
     File.expand_path '~/.dotfiles'
   end
